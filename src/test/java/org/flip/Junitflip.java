@@ -10,6 +10,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -72,7 +73,7 @@ public class Junitflip {
 	
 		      }
 	
-	
+	@Ignore
 	@Test
 	public void searchMobile3() {
 		WebElement spec=driver.findElement(By.xpath("//div[text()='Specifications']"));
